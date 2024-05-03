@@ -1,0 +1,13 @@
+---
+type Props = {
+  src: string;
+  alt: string;
+}
+
+const {alt, src }: Props = Astro.props;
+
+const baseURl = 'https://vention-temp.s3.eu-central-1.amazonaws.com'
+---
+
+<img src={baseURl + src} alt={alt} />
+

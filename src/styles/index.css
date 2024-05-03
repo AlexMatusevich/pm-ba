@@ -1,0 +1,72 @@
+/* normalize a tag */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.site-title img {
+    width: auto;
+    height: 28px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+input[type='checkbox'] {
+    width: 16px;
+    height: 16px;
+    appearance: none;
+    border: 2px solid #4CAF50; /* Green border */
+    border-radius: 4px;
+    outline: none;
+    transition: background 0.3s;
+    position: relative;
+}
+
+input[type='checkbox']:checked {
+    background-color: #4CAF50; /* Green background */
+    border-color: #4CAF50;
+}
+
+input[type='checkbox']:checked:after {
+    content: '';
+    position: absolute;
+    left: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.download-pdf {
+    width: 250px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    background-color: lightgray;
+    border-radius: 12px;
+    color: black !important;
+
+}
+.download-pdf:hover {
+    color: hsl(234, 90%, 60%) !important;
+}
+
+code {
+    line-height:normal;
+    background:rgba(135,131,120,.15);
+    color:rgba(155, 155, 155, 1);
+    border-radius:4px;
+    font-size: 85% !important;
+    padding: 4px 6px !important;
+    fill:rgba(155, 155, 155, 1)
+}

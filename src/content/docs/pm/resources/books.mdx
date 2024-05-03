@@ -1,0 +1,21 @@
+---
+title: Books PM
+description: Books for Project Management
+sidebar:
+  order: 3
+---
+
+import Pdf from '../../../../components/download-document.astro';
+export const url = 'https://vention-temp.s3.eu-central-1.amazonaws.com/pm/resources/books';
+
+| Type                     | Source                                                   |
+|--------------------------|----------------------------------------------------------|
+| Tutorial                 | <Pdf src={`${url}/tutorial-1.pdf`} />                    |
+| Exam Preparation         | <Pdf src={`${url}/exam-preparation-1.pdf`} />            |
+| PMBOOK 6 (english)       | <Pdf src={`${url}/pmbook-6-english.pdf`} />              |
+| PMBOOK 6 (russian)       | <Pdf src={`${url}/pmbook-6-russian.pdf`} />              |
+| Exam Preparation         | <Pdf src={`${url}/exam-preparation-2.pdf`} />            |
+| Exam Preparation         | <Pdf src={`${url}/exam-preparation-3.pdf`} />            |
+| Tutorial                 | <Pdf src={`${url}/tutorial-2.pdf`} />                    |
+| Certification            | <Pdf src={`${url}/certification.pdf`} />                 |
+| PMBOOK 7                 | <Pdf src={`${url}/pmbook-7.pdf`} />                      |

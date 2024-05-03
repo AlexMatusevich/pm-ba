@@ -1,0 +1,50 @@
+---
+title: GDPR - General Data Protection Regulation
+description: General Data Protection Regulation
+sidebar:
+  order: 2
+---
+
+import Image from '../../../../components/image.astro';
+import Pdf from '../../../../components/download-document.astro';
+export const path = '/pm/courses/gdpr';
+export const url = 'https://vention-temp.s3.eu-central-1.amazonaws.com/pm/courses/gdpr';
+
+<Image alt="GDPR" src={`${path}/banner.jpeg`} />
+
+Every company and development team must make sure that the personal data of their employees and customers are safe and protected. Every
+project manager needs to learn and help other team members understand the importance of personal data security.
+
+Recently I finished a General Data Protection Regulation(GDPR) compliance course. I learned a lot from this course and want to share the 8
+essential steps for EU-based Businesses or Companies that work with the personal data of EU countries' citizens in becoming GDPR compliant.
+
+1. **Map and audit data flow.** - You should know where all personal data is stored, what kind of personal data you are storing, and the list of
+the devices in your network.
+2. **Identify the third-party processes.** Identify your partners with whom you are sharing personal data and make sure that they are also
+GDPR compliant and using data appropriately.
+3. **Appoint Data Protection Officer.** Data Protection Officer is responsible for coaching other employees about data compliance, training the
+members of staff who are involved in the data processing, carrying out regular security audits, and notifying individuals and relevant data
+protection authorities. For instance, if a data breach happens, Data Protection Officer has to report it to data protection authorities within
+72 hours.
+4. **Adapt privacy notices and policies.** You need to explain to your users or customers clearly for what purposes you are using their data.
+Your policies and notices should provide clear information about personal data usage.
+5. **Stay responsive to access requests.** Anyone who gave you their info should be able to request to delete or alter their data.
+6. **Understand at which steps stages and processes the personal info is accessed.** Identify every business process that accesses the
+personal data and make sure that customers or users can make changes in every step of the process in which their data is accessed or
+processed.
+7. **Train your employees.** You should train your employees on handling personal data. They should follow safety regulations and be aware
+of the consequences of failing them. As Bruce Schneier quoted: “Amateurs hack systems, professionals hack people“.
+8. **Identify the reporting authority in case of a data breach.** A data breach is a security violation, in which sensitive, protected, or
+confidential data is copied, transmitted, viewed, stolen, or used by an individual unauthorized to do so. In case a data breach happens you
+need to know where to report it. In the UK it is **ICO, BfDI** in Germany, **AEPD** in Spain, and so on.
+
+This is the information I learned from the course, but you need to do more research on this topic for further knowledge. Failing the rules of GDPR
+has severe consequences. Failing to follow the safety regulations can lead to
+
+**up to €20 million (roughly $20,372,000), or 4% of worldwide turnover. So make sure your business is GDPR compliant.**
+
+## Resources
+
+1. Excel and word files for auditing data: <Pdf src={`${url}/audit.docs`} />
+2. Workbook on GDPR compliance with solutions <Pdf src={`${url}/solutions-1.pdf`} /> <br/> <Pdf src={`${url}/solutions-2.pdf`} />
+3. GDPR Whitepaper <Pdf src={`${url}/white-paper.pdf`} />

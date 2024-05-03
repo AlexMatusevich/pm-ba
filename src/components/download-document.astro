@@ -1,0 +1,16 @@
+---
+import { Icon } from '@astrojs/starlight/components';
+
+type Props = {
+  src: string;
+  title?: string;
+};
+
+const {src, title} = Astro.props;
+---
+
+
+<a href={src} download class='download-pdf'>
+  <Icon name="seti:pdf" size='4em' />
+  {title && title}
+</a>

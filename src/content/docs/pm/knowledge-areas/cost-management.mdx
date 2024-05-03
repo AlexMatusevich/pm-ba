@@ -1,0 +1,48 @@
+---
+title: Cost Management
+description: Learn about Project Cost Management, including essential processes such as cost planning, estimating, budgeting, and controlling, along with techniques like Earned Value Analysis to ensure projects stay within budget.
+sidebar:
+  order: 9
+---
+
+import Image from '../../../../components/image.astro';
+export const path = '/pm/knowledge-areas/cost-management';
+
+## What is Project Cost Management?
+
+**Project Cost Management** includes the processes involved in planning, estimating, budgeting, financing, funding, managing, and controlling
+costs so that the project can be completed within the approved budget.
+
+## Cost Baseline VS Budget
+
+### Cost Baseline
+The Cost Baseline includes all the project activities/resources costs and the money set aside to respond to risks identified (i.e. known unknowns)
+over time and it is usually represented as an S-curve
+
+**Cost Baseline = Project Cost Estimates + Contingency Reserves**
+
+### Cost Budget
+The Cost Budget is the estimate of total amount of money required for carrying out the Project, including money set aside for identified and
+unidentified risks (i.e. unknown unknowns)
+
+The Cost Budget can be thought of as the Cost Baseline over time plus the Management Reserves
+
+**Cost Budget = Project Cost Estimates + Contingency Reserves + Management Reserves**
+
+<Image alt="Cost Baseline vs Budget" src={`${path}/cost.png`} />
+
+## Earned Value Analysis
+
+Earned Value Analysis (EVA) is an industry standard method of measuring a project's progress at any given point in time, forecasting its
+completion date and final cost, and analyzing variances in the schedule and budget as the project proceeds.
+
+1. The Planned Value (PV), (formerly known as the budgeted cost of work scheduled or BCWS)—that portion of the approved cost estimate
+planned to be spent on the given activity during a given period.
+2. The Actual Cost (AC), (formerly known as the actual cost of work performed or ACWP)—the total of the costs incurred in accomplishing
+work on the activity in a given period. This Actual Cost must correspond to whatever was budgeted for the Planned Value and the Earned
+Value (e.g. all labor, material, equipment, and indirect costs).
+3. The Earned Value (EV), (formerly known as the budget cost of work performed or BCWP)—the value of the work actually completed.
+
+<Image alt="Graph" src={`${path}/graph.jpg`} />
+
+<Image alt="Table" src={`${path}/table.jpg`} />

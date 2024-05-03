@@ -1,0 +1,58 @@
+---
+title: Software development life cycle
+description: Discover the phases of the Software Development Life Cycle (SDLC), including analysis, design, development, testing, deployment, and maintenance, along with detailed models such as Waterfall, Agile, and more.
+sidebar:
+  order: 5
+---
+
+import Image from '../../../../components/image.astro';
+export const path = '/pm/knowledge-areas/sdlc';
+
+<Image alt="History" src={`${path}/sdlc-history.png`} />
+
+## What is SDLC?
+
+<Image alt="SDLC Phases" src={`${path}/sdlc-phases.png`} />
+1. **Analysis** \
+This stage of the SDLC means getting input from all stakeholders, including customers, salespeople, industry experts, and programmers.
+Learn the strengths and weaknesses of the current system with improvement as the goal. \
+**Goal:** To gather requirements and define the direction of the software engineering process. \
+**Outcome:** Setting requirements and writing SRS
+2. **Design** \
+This phase of the SDLC starts by turning the software specifications into a design plan called the Design Specification. All stakeholders
+then review this plan and offer feedback and suggestions. It’s crucial to have a plan for collecting and incorporating stakeholder input into
+this document. Failure at this stage will almost certainly result in cost overruns at best and the total collapse of the project at worst. \
+**Goal:** To convert requirements into detailed software architecture. \
+**Outcome:** Software design description.
+3. **Development** \
+At this stage, the actual development starts. It’s important that every developer sticks to the agreed blueprint. Also, make sure you have
+proper guidelines in place about the code style and practices. \
+**Goal:** Translate the design of the system into code.
+**Outcome:** testable, functional software, and a Source Code Document.
+4. **Testing** \
+In this stage, we test for defects and deficiencies. We fix those issues until the product meets the original specifications. \
+**Goal:** Code verification and bugs detection. \
+**Outcome:** Software is completely free of bugs and compliant.
+5. **Deployment**
+At this stage, the goal is to deploy the software to the production environment so users can start using the product. However, many
+organisations choose to move the product through different deployment environments such as a testing or staging environment.
+This allows any stakeholders to safely play with the product before releasing it to the market. Besides, this allows any final mistakes to be
+caught before releasing the product. \
+**Goal:** Software delivery to a target device.
+**Outcome:** Fully operational software in a live environment.
+6. **Maintenance**
+The process of software development is a never-ending cycle as the plan rarely turns out perfect when it meets reality. In most cases,
+product maintenance is the continuous phase intended to keep the software stable and up to date. If any new bugs and vulnerabilities
+appear, the maintenance team will mitigate them or flag them to be addressed in a future version of the software. \
+**Goal:** Ongoing security monitoring and update. \
+**Outcome:** Utter user experience and productivity.
+
+## Software development life cycle models
+
+| Name                     | Description |
+|--------------------------|-------------|
+| <Image alt="Icon" src={`${path}/tree-box.png`} /> | **The waterfall model is the oldest of all SDLC methodologies. It’s linear and straightforward and requires development teams to finish one phase of the project completely before moving on to the next. <br /> <br /> Each stage has a separate project plan and takes information from the previous stage to avoid similar issues (if encountered). However, it is vulnerable to early delays and can lead to big problems arising for development teams later down the road.** |
+| <Image alt="Icon" src={`${path}/cycle.png`} />    | The iterative model focuses on repetition and repeat testing. New versions of a software project are produced at the end of each phase to catch potential errors and allow developers to constantly improve the end product by the time it is ready for market. <br /> <br /> One of the upsides to this model is that developers can create a working version of the project relatively early in their development life cycle, so implement the changes are often less expensive. |
+| <Image alt="Icon" src={`${path}/spiral.png`} /> | Spiral models are flexible compared to other methodologies. Projects pass through four main phases again and again in a metaphorically spiral motion. <br /> <br /> It’s advantageous for large projects since development teams can create very customized products and incorporate any received feedback relatively early in the life cycle. |
+| <Image alt="Icon" src={`${path}/check.png`} />  | The V-model (which is short for verification and validation) is quite similar to the waterfall model. A testing phase is incorporated into each development stage to catch potential bugs and defects. <br /> <br /> It’s incredibly disciplined and requires a rigorous timeline. But in theory, it illuminates the shortcomings of the main waterfall model by preventing larger bugs from spiraling out of control. |
+| <Image alt="Icon" src={`${path}/rocket.png`} /> | The agile model is relatively well-known, particularly in the software development industry. <br /> <br /> The agile methodology prioritizes fast and ongoing release cycles, utilizing small but incremental changes between releases. This results in more iterations and many more tests compared to other |

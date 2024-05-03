@@ -1,0 +1,252 @@
+---
+title: Methodologies
+description: Explore different project management methodologies including Waterfall, Agile, Scrum, Kanban, Extreme Programming, and the Nexus framework, detailing each methodology’s principles, processes, and appropriate project scenarios.
+sidebar:
+  order: 3
+---
+
+import { Aside } from '@astrojs/starlight/components';
+import Red from '../../../../components/red.astro'
+import Orange from '../../../../components/orange.astro'
+import Blue from '../../../../components/blue.astro'
+import Green from '../../../../components/green.astro'
+import Purple from '../../../../components/purple.astro'
+
+import Image from '../../../../components/image.astro';
+export const path = '/pm/knowledge-areas/methodologies';
+
+## What is a methodology?
+
+**The methodology** is a set of principles and practices that guide you in organizing your projects to ensure their optimum performance.
+
+### How do you choose the right project management methodology?
+
+There are lots of factors that will impact which methodology is right for the project, team, and organization. Here’s a quick breakdown of some of
+the key considerations that can help to decide:
+
+- **Cost and budget:** On a scale of $ to $$$, what sort of budget are you working with? Is there room for that to change if necessary, or is it
+essential that it stays within these predetermined limits?
+- **Team size:** How many people are involved? How many stakeholders? Is your team relatively compact and self-organizing, or more sprawling,
+with a need for more rigorous delegation?
+- **Ability to take risks:** Is this a huge project with a big impact that needs to be carefully managed in order to deliver Very Serious Results? Or
+is it a smaller-scale project with a bit more room to play around?
+- **Flexibility:** Is there room for the scope of the project to change during the process? What about the finished product?
+- **Timeline:** How much time is allotted to deliver on the brief? Do you need a quick turnaround, or is it more important that you have a
+beautifully finished result, no matter how long it takes?
+Client/stakeholder collaboration: How involved does the client/stakeholder need — or want — to be in the process? How involved do you
+need — or want — them to be?
+
+## Different types of methodologies
+
+### 1. Waterfall
+
+Waterfall is one of the simplest approaches to project management. It refers to a sequential process. It’s called a waterfall system because the
+tasks flow down, and a task can only be started if the previous task was completed. There are no overlaps, so the requirements of each task
+should be crystal-clear. This approach is often used in software development, and can be depicted as follows:
+
+<Image alt="Waterfall" src={`${path}/waterfall.png`} />
+
+**Try Waterfall project management methodology if:**
+
+* The end goal of the project is clearly defined — and isn’t going to change.
+* The stakeholders know exactly what they want (and it isn’t going to change).
+* The project is consistent and predictable (i.e. isn’t going to change).
+* The industry needs extensive project tracking or documentation.
+
+**Waterfall project management methodology might not be for you if:**
+
+* The project is liable to change.
+* You don’t have a full picture of all the requirements before you start.
+* You need to do continuous testing or adapt to feedback during the process
+
+### 2. Agile
+
+<Image alt="Agile" src={`${path}/agile.png`} />
+
+The word agile refers to progressing quickly. This methodology helps you stay flexible while you’re able to respond to changing requirements. In
+contrast to the waterfall method, the agile approach lets you implement required change requests, even late in the process. Deliverables are
+frequently completed, and the overall objective is to improve customer satisfaction by constantly delivering small portions of the overall outcome.
+
+The [manifesto for agile software development](https://agilemanifesto.org/) consists of 12 guiding principles.
+
+<Image alt="Agile Manifesto" src={`${path}/agile-manifesto.png`} />
+
+**Try Agile project management methodology if:**
+
+* The project is liable to change.
+* You’re not sure at the outset what the solution will look like.
+* You need to work quickly, and it’s more important that you see speedy progress than perfect results.
+* Your stakeholders or client needs (or wants) to be involved at every stage.
+
+**This project management methodology isn’t for you if:**
+
+* You need a lot of documentation (for example, if you’ll be bringing new people on-board during the project).
+* You need a predictable deliverable, and you need to be crystal clear about what that looks like from the outset.
+* Your project can’t afford to change during its course.
+* You have strict deadlines or deliverables that you need to stay on top of.
+
+### 3. Scrum
+
+<Image alt="Scrum Process" src={`${path}/scrum-process.jpg`} />
+
+**Scrum** is a lightweight framework that helps people, teams and organizations generate value through adaptive solutions for complex problems.
+
+**Scrum Pillars**
+<Image alt="Scrum Pillars" src={`${path}/scrum-pillars.png`} />
+
+**Scrum Values**
+<Image alt="Scrum Values" src={`${path}/scrum-values.png`} />
+
+**Scrum Roles**
+<Image alt="Scrum Roles" src={`${path}/scrum-roles.png`} />
+
+**Developers** are the people in the Scrum Team that are committed to creating any aspect of a usable Increment each Sprint.
+**The Product Owner** is accountable for maximizing the value of the product resulting from the work of the Scrum Team. How this is done may
+vary widely across organizations, Scrum Teams, and individuals.
+**The Scrum Master** is accountable for establishing Scrum as defined in the Scrum Guide. They do this by helping everyone understand Scrum
+theory and practice, both within the Scrum Team and the organization.
+
+**Scrum Events**
+<Image alt="Scrum Events" src={`${path}/scrum-events.png`} />
+<Image alt="Scrum Events Table" src={`${path}/scrum-events-table.png`} />
+
+**When to use Scrum:**
+* Projects that consist of teams of less than ten people who need a flexible approach to deliver a product or service.
+* High probability of changes. The client is open to innovation
+* Requirements are not clearly defined
+* The Product Owner is available
+* Time and Materials/Dedicated team contract type highly preferable
+
+### 4. Kanban
+
+Kanban is a visual system for managing work as it moves through a process. Kanban visualizes both the process (the workflow) and the actual
+work passing through that process. The goal of Kanban is to identify potential bottlenecks in your process and fix them so work can flow through
+it cost-effectively at an optimal speed or throughput.
+
+**Kanban Process**
+<Image alt="Kanban" src={`${path}/kanban-process.png`} />
+
+**Basic Principals**
+* Visualization of the workflow
+
+Reduce waste (progress and status) \
+Shared information \
+Transparency
+* Work In Progress (WIP) limits \
+
+Reduce waste (defects, time for merging) \
+Improves quality \
+Improves flow for single work item
+
+**Lead Time VS Cycle Time**
+<Image alt="Lead Time" src={`${path}/lead-time-vs-cycle-time.png`} />
+
+**Scrum vs Kanban**
+<Image alt="Scrum vs Kanban" src={`${path}/scrum-vs-kanban.png`} />
+
+**When to use**
+
+* Changes in priorities
+* Small and equal pieces of work
+* Focus on fast and smooth continuous workflow
+* No pre-determined delivery dates
+
+### 5. Extreme Programming (XP)
+
+Extreme programming is a lightweight, efficient, flexible and software development centric agile principle. It mostly focuses on good development
+practices and source code and technical quality whereas Scrum at the project management level focuses on prioritizing work and getting
+feedback. The main principles of XP are simplicity, communication and feedback(fail fast & learn fast).
+
+**Process and Phases.**
+
+* **Release planning**
+* **Iteration**
+* **Release**
+
+<Image alt="Extreme Programming" src={`${path}/extreme-programming.png`} />
+
+**EP vs Scrum**
+
+**XP Practices.**
+* **Simple design**
+* **Pair programming** - two developers sit together sharing one table and simultaneously work together. One of the developers writes code and
+the second one helps with ideas and eliminates mistakes - leading to better code quality.
+* **Constant testing** - Supported by unit testing and functional testing.
+* **Continuous integration** - the practice of integrating the system every time when a developer completes a task(CI&CD)
+* **Refactoring** - Implementing a feature without changing the behavior of the system
+* **Test-Driven Development(TDD)** - Developers write the test first and then the code. The test should fail the first time because no code is
+written.
+* **Collective ownership** - even a single developer has a right to make changes and fix the issues in a code(by notifying other team members),
+and everyone is responsible for the code of a project.
+
+**Roles in XP:**
+
+**Coach** - Acts as a mentor, guiding the process and helping the team stay on track, facilitator of the team that helps them become effective by
+eliminating problems. \
+**Customer** - A businessA business representative who provides the requirements, and priorities, and drives the business direction for the project. \
+**Programmers** - Developers who build the product. \
+**Testers** - Helps the customer define and write the acceptance tests for the user stories.
+
+**When to use:**
+* Dynamically changing software requirements.
+* Small, co-located extended development team.
+* The technology you are using allows for automated unit and functional tests.
+
+The principle was introduced by **Kent Beck** who quoted: \
+**“XP is a lightweight methodology for small to medium-sized teams developing software in the face of vague or rapidly changing
+requirements“.**
+
+### 6. Nexus framework (Scaled Scrum)
+
+<Aside title=" ">
+  **Nexus** is a framework for *developing and sustaining*
+  <Purple>scaled product delivery</Purple> initiatives.
+</Aside>
+
+**Nexus** builds upon Scrum,
+<Green>extending it only where absolutely necessary to minimize and manage dependencies between multiple Scrum Teams</Green>
+while promoting empiricism and the Scrum Values.
+
+The Nexus framework inherits the purpose and intent of the Scrum framework as documented in the Scrum Guide.
+<Orange>Scaled Scrum is still Scrum.</Orange> Nexus
+<Red>does not</Red>
+change the core design or ideas of Scrum, or leave out elements, or negate the rules of Scrum. Doing so covers up problems
+and limits the benefits of Scrum, potentially even rendering it useless. The definition of Nexus is identified in the
+<Blue>Nexus Guide.</Blue>
+
+The <Blue>Nexus Guide</Blue> provides the following definition of Nexus:
+
+A **Nexus** is a group of *approximately* **3 to 9** Scrum Teams that work together to deliver a single product; it is a connection between people and
+things.
+
+A Nexus has a <Green>single</Green> Product Owner who manages a <Green>single</Green>
+Product Backlog from which the Scrum Teams work. The Nexus framework defines
+the accountabilities, events, and artifacts that bind and weave together the work of the Scrum Teams in a Nexus.
+<Orange>Nexus builds upon Scrum’s foundation,</Orange>
+and its parts will be familiar to those who have used Scrum. It minimally extends the Scrum framework
+<Red>only</Red>
+*where absolutely necessary to enable multiple teams to work from a single Product Backlog to build an
+<Blue>Integrated Increment that meets a goal.</Blue>*
+
+<Aside type="caution" title=" ">
+  While often counterintuitive, **scaling the value that is delivered** does **not always require adding more people. Increasing** the number
+  of people and the size of a product **increases complexity and dependencies, the need for collaboration, and the number of
+  communication pathways involved in making decisions. Scaling-down, reducing the number of people** who work on something,
+  can be **an important practice in delivering more value.**
+</Aside>
+
+The <Green>goal</Green> of
+<Green>Nexus is to scale the value that a group of Scrum Teams</Green>,
+working on a single product, is able to deliver. It does this by reducing
+the complexity that those teams encounter as they collaborate to deliver an integrated, valuable, useful product Increment at least once every
+Sprint.
+
+The Nexus Framework helps teams solve common scaling challenges like:
+* reducing cross-team dependencies
+* preserving team self-management and transparency
+* ensuring accountability
+
+<Aside title=" ">
+  Nexus provides **opportunities to change** the process, product structure, and communication structure to reduce or remove
+  dependencies.
+</Aside>
