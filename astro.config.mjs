@@ -24,7 +24,7 @@ export default defineConfig({
     customCss: ['./src/styles/index.css'],
     sidebar: [
       {
-        label: "PAs knowledge base",
+        label: "PMs knowledge base",
         items: [
           {
             label: "Knowledge areas",
