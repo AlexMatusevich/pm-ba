@@ -42,7 +42,70 @@ export default defineConfig({
       },
       {
         label: "BAs knowledge base",
-        autogenerate: { directory: "reference" },
+        items: [
+          {
+            label: 'Knowledge areas',
+            items: [
+              {
+                label: 'Stakeholder Analysis',
+                link: 'ba/knowledge-areas/stakeholder-analysis'
+              },
+              {
+                label: 'Requirements classification',
+                link: 'ba/knowledge-areas/requirements-classification'
+              },
+              {
+                label: 'Scope Creep, Boundaries of Scope',
+                link: 'ba/knowledge-areas/score-creep'
+              },
+              {
+                label: 'User Stories',
+                link: 'ba/knowledge-areas/user-stories'
+              },
+              {
+                label: 'Use Cases',
+                link: 'ba/knowledge-areas/use-cases'
+              },
+              {
+                label: 'API',
+                link: 'ba/knowledge-areas/api'
+              },
+              {
+                label: 'Technical writing / Creation of a knowledge base',
+                items: [
+                  {
+                    label: 'Types of documents and knowledge bases',
+                    link: 'ba/knowledge-areas/technical-writing/types-of-documents'
+                  },
+                  {
+                    label: 'Technical writing process',
+                    link: 'ba/knowledge-areas/technical-writing/technical-writing'
+                  },
+                  {
+                    label: 'Essential tips for great knowledge base',
+                    link: 'ba/knowledge-areas/technical-writing/essential-tips'
+                  },
+                ]
+              }
+            ]
+          },
+          {
+            label: 'Books',
+            link: 'ba/books'
+          },
+          {
+            label: 'Templates',
+            link: 'ba/templates'
+          },
+          {
+            label: 'Useful links',
+            link: 'ba/useful-links'
+          },
+          {
+            label: 'Community progress',
+            link: 'ba/community-progress'
+          }
+        ]
       },
     ],
   })]

@@ -1,0 +1,80 @@
+---
+title: Requirements classification
+---
+
+import Image from '../../../../components/image.astro';
+export const path = '/ba/knowledge-areas/requirements-classification';
+
+**The anatomy of software requirements according to K. Wiegers:**
+
+<Image alt="The anatomy of software requirements" src={`${path}/requirements-anatomy.png`} />
+
+**The BABOK Requirements Taxonomy:**
+
+<Image alt="The BABOK Requirements Taxonomy" src={`${path}/requirements-taxonomy.png`} />
+
+## Business Requirements
+Business requirements are high level statements of goals, objectives, and outcomes that describe why a change has been initiated. They can
+apply to the whole of an enterprise, a business area, or a specific initiative.
+
+Every software application, conceptualized and initiated by an organization is meant to achieve a business goal like improving customer service,
+increasing revenue by 10% every month etc.
+
+A typical business requirement is shown below:
+
+> We would like to automate our customer relationship management system so that we can offer better customer services so that
+> the customer response time improves by 70% in the next 6 months.
+
+Note that business requirements do not need to specify details as to how the objectives should be met.
+
+## Stakeholder Requirements
+Stakeholder requirements describe the needs of stakeholders that must be met in order to achieve the business requirements.
+
+Stakeholders requirements are more individualistic. They serve as a bridge between business and solution requirements.
+
+In in a bank’s customer service management project, one of the stakeholders may state the following requirement:
+
+> We would like to have a mechanism to monitor the response time for each and every customer support request on a daily basis
+> in order to improve the response time. The report should be generated daily, monthly or on on-demand basis.
+>
+> A comparative report will be needed to see the trend.
+
+## Solution Requirements
+These requirements describe the capabilities and qualities of a solution that meets the stakeholder requirements. They provide the appropriate
+level of detail to allow for the development and implementation of the solution. These requirements will be used by the engineering team to
+develop the system.
+
+Solution requirements are of two types:
+* **Functional requirements:** Functional requirements are the expected features of the system. Features like registering a user, making an
+online purchase etc.
+* **Non-Functional requirements:** Non-functional requirements are the requirements which are related to the behavior of the system. While func
+tional requirements define what the system is expected to do, non-functional requirements specify how the system should do it.
+
+An illustration of functional requirements is shown below:
+> The system should display customer last name as a link to their account history. \
+> Upon navigating to the customer account history, the bank clerk can see the following details: \
+> \- account number \
+> \- remaining balance \
+> \- pending transactions \
+> \- past transactions \
+> \- ...
+
+Non-functional requirements can be of different types, below are a few examples:
+> Any system response shall not exceed 3 seconds (performance)
+> If the user fails to provide correct password 3 times, the system shall temporarily block their account (security)
+>
+> The system shall be able to support an annual growth of 15% on the number of transactions (scalability)
+
+## Transition Requirements
+Transition requirements describe the capabilities that the solution must have and the conditions the solution must meet to facilitate transition from
+the current state into the future state, but which are not needed once the change is complete. They are differentiated from other requirements
+types because they are of a temporary nature.
+
+Examples of transition requirements are as follows:
+> The users must be trained to be able to use the system effectively
+> Previous years data must be migrated to the new system to generate comparative report
+
+**Useful resources:**
+1. BABOK v3: 2.3. Requirements Classification Schema
+2. Wiegers, Software requirements. 3rd edition: Chapter 1. Levels and types of requirements, Working with the three levels, Product vs project
+requirements
